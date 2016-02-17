@@ -2,14 +2,15 @@ Meteor.startup(function () {
   // Client startup method.
   Meteor.absoluteUrl.defaultOptions.rootUrl = 'http://myapp.dev/';
 });
+/* Please add your app clientId and secret id
 // first, remove configuration entry in case service is already configured
 ServiceConfiguration.configurations.remove({
   service: "google"
 });
 ServiceConfiguration.configurations.insert({
   service: "google",
-  clientId: "808320176863-aipdvrl74i18gqlvhbu38k9hakjc8rpt.apps.googleusercontent.com",
-  secret: "EdE3yeBti0Ney_tHztVdfpL8"
+  clientId: "",
+  secret: ""
 });
 // first, remove configuration entry in case service is already configured
 ServiceConfiguration.configurations.remove({
@@ -17,8 +18,8 @@ ServiceConfiguration.configurations.remove({
 });
 ServiceConfiguration.configurations.insert({
   service: "twitter",
-  consumerKey: "lcOfpDOnFpB1DnJQuBHweUKk5",
-  secret: "AQWrrGYfR6COd9Zg5eCYMSWoOkcwUzzYHKvbEcLFXTJg5j141I"
+  consumerKey: "",
+  secret: ""
 });
 
 // first, remove configuration entry in case service is already configured
@@ -27,6 +28,6 @@ ServiceConfiguration.configurations.remove({
 });
 ServiceConfiguration.configurations.insert({
   service: "facebook",
-  appId: "1127822400575380",
-  secret: "48affbd0c0849015f97d020f560b0bb8"
-});
+  appId: "",
+  secret: ""
+});*/
